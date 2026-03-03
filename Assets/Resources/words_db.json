@@ -1,0 +1,22 @@
+{
+  "words": [
+    {
+      "id": "word_apple",
+      "polishWord": "Jabłko",
+      "englishTranslation": "Apple",
+      "spriteName": "sprite_apple"
+    },
+    {
+      "id": "word_car",
+      "polishWord": "Samochód",
+      "englishTranslation": "Car",
+      "spriteName": "sprite_car"
+    },
+    {
+      "id": "word_tree",
+      "polishWord": "Drzewo",
+      "englishTranslation": "Tree",
+      "spriteName": "sprite_tree"
+    }
+  ]
+}

@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 6074013}
   - component: {fileID: 6074015}
   - component: {fileID: 6074014}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -436,7 +436,7 @@ GameObject:
   - component: {fileID: 32689268}
   - component: {fileID: 32689270}
   - component: {fileID: 32689269}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: TranslationText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -785,7 +785,7 @@ GameObject:
   - component: {fileID: 99466275}
   - component: {fileID: 99466277}
   - component: {fileID: 99466276}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: DialohueText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1431,7 +1431,7 @@ GameObject:
   - component: {fileID: 168530268}
   - component: {fileID: 168530270}
   - component: {fileID: 168530269}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: PolishText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1650,13 +1650,13 @@ GameObject:
   - component: {fileID: 179531532}
   - component: {fileID: 179531534}
   - component: {fileID: 179531533}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &179531532
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2224,7 +2224,7 @@ GameObject:
   - component: {fileID: 241706061}
   - component: {fileID: 241706060}
   - component: {fileID: 241706059}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3568,7 +3568,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 380320562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 124.17, y: -177.36, z: 0}
+  m_LocalPosition: {x: 121.75, y: -172.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4766,7 +4766,7 @@ GameObject:
   - component: {fileID: 566629205}
   - component: {fileID: 566629207}
   - component: {fileID: 566629206}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: Portrait
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6294,7 +6294,7 @@ GameObject:
   - component: {fileID: 834195185}
   - component: {fileID: 834195187}
   - component: {fileID: 834195186}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: DialoguePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7630,7 +7630,7 @@ GameObject:
   - component: {fileID: 1169574276}
   - component: {fileID: 1169574278}
   - component: {fileID: 1169574277}
-  m_Layer: 5
+  m_Layer: 1
   m_Name: ItameImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7804,7 +7804,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188135137}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.8797392, y: 1.2732967, z: 0}
+  m_LocalPosition: {x: 1.8829, y: 1.2285, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10764,8 +10764,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _learningPanel: {fileID: 179531531}
-  _englishTextObj: {fileID: 168530269}
-  _ukrainianTextObj: {fileID: 32689269}
+  _polishTextUI: {fileID: 168530269}
+  _englishTextUI: {fileID: 32689269}
   _itemImageObj: {fileID: 1169574277}
   _dialoguePanel: {fileID: 834195184}
   _dialogueText: {fileID: 99466276}

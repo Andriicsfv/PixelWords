@@ -7,16 +7,29 @@
       "spriteName": "sprite_apple"
     },
     {
-      "id": "word_car",
-      "polishWord": "Samochód",
-      "englishTranslation": "Car",
-      "spriteName": "sprite_car"
+      "id": "word_water",
+      "polishWord": "Woda",
+      "englishTranslation": "Water",
+      "spriteName": "sprite_Water"
     },
     {
-      "id": "word_tree",
-      "polishWord": "Drzewo",
-      "englishTranslation": "Tree",
-      "spriteName": "sprite_tree"
+      "id": "word_milk",
+      "polishWord": "Mleko",
+      "englishTranslation": "Milk",
+      "spriteName": "sprite_milk"
+    },
+    {
+      "id": "word_banana",
+      "polishWord": "Banan",
+      "englishTranslation": "Banana",
+      "spriteName": "sprite_Banana"
+    },
+    {
+      "id": "word_orange",
+      "polishWord": "Pomarańcza",
+      "englishTranslation": "Orange",
+      "spriteName": "sprite_Orange"
     }
+
   ]
 }

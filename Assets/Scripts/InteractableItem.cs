@@ -36,7 +36,21 @@ public class InteractableItem : MonoBehaviour
             if (info != null)
             {
                 UIManager.Instance.ShowCard(info);
+                if (ShopManager.Instance != null)
+                {
+                    ShopManager.Instance.TryCollectItem(_wordID);
+                }
             }
+            if (ShopManager.Instance != null)
+            {
+                ShopManager.Instance.TryCollectItem(_wordID);
+            }
+        }
+        if (_canInteract && Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log("Кнопка Е натиснута!");
+            WordData info = VocabularyManager.Instance.GetWord(_wordID);
+
         }
     }
 }

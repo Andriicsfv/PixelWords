@@ -1,29 +1,45 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class LevelManager : MonoBehaviour 
+public class LevelManager : MonoBehaviour
 {
-    
+    public string homePointName = "SpawnHome";
+    public string shopPointName = "SpawnShop";
 
-    void Start()
+    void Awake()
     {
         
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        SetupPosition();
+    }
+
+    void SetupPosition()
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player == null) return;
+
         
-        GameObject spawnPoint = GameObject.Find("SpawnPoint");
+        int fromShop = PlayerPrefs.GetInt("SpawnAtShop", 0);
 
-        if (playerObj != null)
+        
+        string targetName = (fromShop == 1) ? shopPointName : homePointName;
+        GameObject targetPoint = GameObject.Find(targetName);
+
+        if (targetPoint != null)
         {
             
-            if (spawnPoint != null)
+            player.transform.position = targetPoint.transform.position;
+
+            
+            if (Camera.main != null)
             {
-                playerObj.transform.position = spawnPoint.transform.position;
+                Vector3 camPos = targetPoint.transform.position;
+                camPos.z = Camera.main.transform.position.z;
+                Camera.main.transform.position = camPos;
             }
+        }
 
-            
-        }
-        else
-        {
-            Debug.LogError("No tag");
-        }
+        
+        PlayerPrefs.SetInt("SpawnAtShop", 0);
+        PlayerPrefs.Save();
     }
 }

@@ -4029,7 +4029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: Marek
   message: Hello,my name is Marek and i will be your mentor for a few days,even though
-    i feel a little sick let;s go to the shop and buy you some food
+    i feel a little sick let's go to the shop and buy you some food
   npcFace: {fileID: 21300000, guid: 231829e4d6687df4eb090ad5fde0de7d, type: 2}
 --- !u!95 &483477814
 Animator:
@@ -4174,6 +4174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38ceaeff051fc7a4a89caad25d0ce137, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _homeSpawnName: SpawnHome
+  _shopSpawnName: SpawnShop
 --- !u!4 &497508089
 Transform:
   m_ObjectHideFlags: 0
@@ -6999,7 +7001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Outside
-  loadNextByIndex: 1
+  requireEmptyList: 0
 --- !u!61 &999874786
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10736,6 +10738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _jsonDatabaseFile: {fileID: 4900000, guid: dc5e3e37841140f44976468cd5b8b795, type: 3}
+  _sheetPath: Items/AllItems
 --- !u!4 &1520524607
 Transform:
   m_ObjectHideFlags: 0
@@ -10766,7 +10769,7 @@ MonoBehaviour:
   _learningPanel: {fileID: 179531531}
   _polishTextUI: {fileID: 168530269}
   _englishTextUI: {fileID: 32689269}
-  _itemImageObj: {fileID: 1169574277}
+  _itemImageUI: {fileID: 0}
   _dialoguePanel: {fileID: 834195184}
   _dialogueText: {fileID: 99466276}
   _nameText: {fileID: 6074014}

@@ -4,19 +4,19 @@
       "id": "word_apple",
       "polishWord": "Jabłko",
       "englishTranslation": "Apple",
-      "spriteName": "sprite_apple"
+      "spriteName": "Apple_sprite"
     },
     {
-      "id": "word_water",
-      "polishWord": "Woda",
-      "englishTranslation": "Water",
-      "spriteName": "sprite_Water"
+      "id": "word_carrot",
+      "polishWord": "Marchewka",
+      "englishTranslation": "Carrot",
+      "spriteName": "sprite_Carrot"
     },
     {
-      "id": "word_milk",
-      "polishWord": "Mleko",
-      "englishTranslation": "Milk",
-      "spriteName": "sprite_milk"
+      "id": "word_pepper",
+      "polishWord": "Papryka",
+      "englishTranslation": "Pepper",
+      "spriteName": "sprite_pepper"
     },
     {
       "id": "word_banana",
@@ -28,7 +28,7 @@
       "id": "word_orange",
       "polishWord": "Pomarańcza",
       "englishTranslation": "Orange",
-      "spriteName": "sprite_Orange"
+      "spriteName": "Orange_sprite"
     }
 
   ]

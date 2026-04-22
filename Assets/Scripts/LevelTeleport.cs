@@ -1,38 +1,30 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; 
+using UnityEngine.SceneManagement;
 
 public class LevelTeleport : MonoBehaviour
 {
-    [Header("Налаштування")]
     public string sceneName; 
-    public bool loadNextByIndex = true; 
+    public bool requireEmptyList = false;
 
-    
     private void OnTriggerEnter2D(Collider2D other)
     {
-       
         if (other.CompareTag("Player"))
         {
-            if (loadNextByIndex)
+            
+            if (requireEmptyList)
             {
-               
-                int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+                if (ShopManager.Instance != null && ShopManager.Instance.shoppingListIDs.Count > 0)
+                {
+                    Debug.Log("Купи все спочатку!");
+                    return;
+                }
 
                 
-                if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
-                {
-                    SceneManager.LoadScene(nextSceneIndex);
-                }
-                else
-                {
-                    Debug.Log("No next lvl");
-                }
+                PlayerPrefs.SetInt("SpawnAtShop", 1);
+                PlayerPrefs.Save();
             }
-            else
-            {
-                
-                SceneManager.LoadScene(sceneName);
-            }
+
+            SceneManager.LoadScene(sceneName);
         }
     }
 }

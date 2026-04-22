@@ -2,55 +2,64 @@ using UnityEngine;
 
 public class InteractableItem : MonoBehaviour
 {
-    [Header("ID слова з JSON файлу")]
-    [SerializeField] private string _wordID;
-
+    [SerializeField] private string _wordID; 
     private bool _canInteract = false;
 
+    private void Update()
+    {
+        
+        if (_canInteract && Input.GetKeyDown(KeyCode.E))
+        {
+            if (VocabularyManager.Instance == null) return;
+
+            WordData info = VocabularyManager.Instance.GetWord(_wordID);
+
+            if (info != null)
+            {
+                
+                if (QuizManager.Instance != null)
+                {
+                    QuizManager.Instance.OpenQuiz(info);
+                }
+                
+                else if (UIManager.Instance != null)
+                {
+                    UIManager.Instance.ShowCard(info);
+                    if (ShopManager.Instance != null) ShopManager.Instance.TryCollectItem(_wordID);
+                }
+            }
+        }
+    }
+
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             _canInteract = true;
-            Debug.Log("Press E");
+            Debug.Log($"Гравець підійшов до {_wordID}");
         }
     }
 
+    
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             _canInteract = false;
-            UIManager.Instance.CloseCard();
-        }
-    }
-
-    private void Update()
-    {
-        if (_canInteract && Input.GetKeyDown(KeyCode.E))
-        {
-            
-            WordData info = VocabularyManager.Instance.GetWord(_wordID);
+            Debug.Log($"Гравець відійшов від {_wordID}");
 
             
-            if (info != null)
+            if (UIManager.Instance != null)
             {
-                UIManager.Instance.ShowCard(info);
-                if (ShopManager.Instance != null)
-                {
-                    ShopManager.Instance.TryCollectItem(_wordID);
-                }
+                UIManager.Instance.HideCard();
             }
-            if (ShopManager.Instance != null)
-            {
-                ShopManager.Instance.TryCollectItem(_wordID);
-            }
-        }
-        if (_canInteract && Input.GetKeyDown(KeyCode.E))
-        {
-            Debug.Log("Кнопка Е натиснута!");
-            WordData info = VocabularyManager.Instance.GetWord(_wordID);
 
+            
+            if (QuizManager.Instance != null)
+            {
+                QuizManager.Instance.CloseQuiz();
+            }
         }
     }
 }

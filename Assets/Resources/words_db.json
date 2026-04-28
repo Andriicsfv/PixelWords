@@ -29,6 +29,48 @@
       "polishWord": "Pomarańcza",
       "englishTranslation": "Orange",
       "spriteName": "Orange_sprite"
+    },
+    {
+      "id": "word_bed",
+      "polishWord": "łóżko",
+      "englishTranslation": "Bed",
+      "spriteName": "sprite_Bed"
+    },
+    {
+      "id": "word_carpet",
+      "polishWord": "dywan",
+      "englishTranslation": "Carpet",
+      "spriteName": "Carpet_sprite"
+    },
+    {
+      "id": "word_table",
+      "polishWord": "stół",
+      "englishTranslation": "Table",
+      "spriteName": "sprite_Table"
+    },
+    {
+      "id": "word_fridge",
+      "polishWord": "lodówka",
+      "englishTranslation": "Fridge",
+      "spriteName": "Fridge_sprite"
+    },
+    {
+      "id": "word_bath",
+      "polishWord": "wanna",
+      "englishTranslation": "Bath",
+      "spriteName": "sprite_Bath"
+    },
+    {
+      "id": "word_toilet",
+      "polishWord": "toaleta",
+      "englishTranslation": "Toilet",
+      "spriteName": "Toilet_sprite"
+    },
+    {
+      "id": "word_tv",
+      "polishWord": "telewizja",
+      "englishTranslation": "TV",
+      "spriteName": "sprite_TV"
     }
 
   ]

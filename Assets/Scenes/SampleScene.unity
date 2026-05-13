@@ -4112,7 +4112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 483477812}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 119.24, y: -170.34, z: 0}
+  m_LocalPosition: {x: 119.24, y: -170.34, z: -1}
   m_LocalScale: {x: 1.8, y: 1.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7950,8 +7950,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188135137}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.8829, y: 1.2285, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.8829, y: 1.2524, z: 0}
+  m_LocalScale: {x: 1, y: 1.1492, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 246955495}
@@ -10955,7 +10955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _jsonDatabaseFile: {fileID: 4900000, guid: dc5e3e37841140f44976468cd5b8b795, type: 3}
-  _sheetPath: Items/AllItems
+  _sheetPath: HomeInt
 --- !u!4 &1520524607
 Transform:
   m_ObjectHideFlags: 0
@@ -10986,7 +10986,7 @@ MonoBehaviour:
   _learningPanel: {fileID: 179531531}
   _polishTextUI: {fileID: 168530269}
   _englishTextUI: {fileID: 32689269}
-  _itemImageUI: {fileID: 0}
+  _itemImageUI: {fileID: 1169574277}
   _dialoguePanel: {fileID: 834195184}
   _dialogueText: {fileID: 99466276}
   _nameText: {fileID: 6074014}
@@ -12958,8 +12958,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1907979880}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.9793022, y: -0.3197342, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 2.9304, y: -0.3197342, z: 0}
+  m_LocalScale: {x: 1.3055, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 246955495}

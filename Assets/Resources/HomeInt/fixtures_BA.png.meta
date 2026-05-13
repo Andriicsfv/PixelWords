@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 96826a23f475ec54b9c737dd0f22d38d
+guid: 95b921bba447f464b85a885f40897d2e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,211 +93,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: decorations_BR_0
+      name: fixtures_BA_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 80
-        width: 64
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67e0a3e55231ab0409cf6c6a451d3ebf
-      internalID: -1227007977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: decorations_BR_1
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 152
-        width: 10
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df58c62eac0eca34dac7d31fdd380970
-      internalID: 553925711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: decorations_BR_2
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 147
-        width: 40
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ce20e6cc1762ab47a77168219f07c6b
-      internalID: -44744060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: decorations_BR_3
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 120
-        width: 12
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f55a7816d47a394bb47161f595f402b
-      internalID: -1506847535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: decorations_BR_4
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 120
-        width: 12
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07bb51115f98ba944aaf87f46642c808
-      internalID: 1103468935
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: decorations_BR_5
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 120
-        width: 10
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 471a270ef1e768346a13a6c574c01c4c
-      internalID: 1937494786
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: decorations_BR_6
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 120
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3e736333273021449b83c480dab782c
-      internalID: -613190235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: decorations_BR_7
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 80
-        width: 80
+        x: 15
+        y: 64
+        width: 65
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f6538c1321d0b044b1f4d173d164c51
-      internalID: 1524341721
+      spriteID: 7b40e931e08824848a1927ad53aebb12
+      internalID: 1802080928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorations_BR_8
+      name: fixtures_BA_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 16
-        width: 62
-        height: 48
+        x: 105
+        y: 78
+        width: 32
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b093b62c474b7914083ba30cd71017d5
-      internalID: -1125183026
+      spriteID: 0fd04b2317e3d944dafa901253e06b4a
+      internalID: -1292679467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: decorations_BR_9
+      name: Toilet_sprite
       rect:
         serializedVersion: 2
-        x: 94
-        y: 16
-        width: 68
-        height: 48
+        x: 165
+        y: 52
+        width: 22
+        height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55268711f946bef4d8048430f8520d31
-      internalID: 2007544368
+      spriteID: 42d662b6976887241ae4a9b97a9bd872
+      internalID: 811668079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite_Bath
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 16
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e25f6a2a3b1c74eb065fb75c5b9d7f
+      internalID: -1465688793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fixtures_BA_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 30
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49986e7685723ae4081773789faf93b7
+      internalID: 2128717637
       vertices: []
       indices: 
       edges: []
@@ -313,16 +208,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      decorations_BR_0: -1227007977
-      decorations_BR_1: 553925711
-      decorations_BR_2: -44744060
-      decorations_BR_3: -1506847535
-      decorations_BR_4: 1103468935
-      decorations_BR_5: 1937494786
-      decorations_BR_6: -613190235
-      decorations_BR_7: 1524341721
-      decorations_BR_8: -1125183026
-      decorations_BR_9: 2007544368
+      Toilet_sprite: 811668079
+      fixtures_BA_0: 1802080928
+      fixtures_BA_1: -1292679467
+      fixtures_BA_4: 2128717637
+      sprite_Bath: -1465688793
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

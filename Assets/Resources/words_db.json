@@ -34,43 +34,50 @@
       "id": "word_bed",
       "polishWord": "łóżko",
       "englishTranslation": "Bed",
-      "spriteName": "sprite_Bed"
+      "spriteName": "sprite_Bed",
+      "folderName": "HomeInt"
     },
     {
       "id": "word_carpet",
       "polishWord": "dywan",
       "englishTranslation": "Carpet",
-      "spriteName": "Carpet_sprite"
+      "spriteName": "Carpet_sprite",
+      "folderName": "HomeInt"
     },
     {
       "id": "word_table",
       "polishWord": "stół",
       "englishTranslation": "Table",
-      "spriteName": "sprite_Table"
+      "spriteName": "sprite_Table",
+      "folderName": "HomeInt"
     },
     {
       "id": "word_fridge",
       "polishWord": "lodówka",
       "englishTranslation": "Fridge",
-      "spriteName": "Fridge_sprite"
+      "spriteName": "Fridge_sprite",
+      "folderName": "HomeInt"
     },
     {
       "id": "word_bath",
       "polishWord": "wanna",
       "englishTranslation": "Bath",
-      "spriteName": "sprite_Bath"
+      "spriteName": "sprite_Bath",
+      "folderName": "HomeInt"
     },
     {
       "id": "word_toilet",
       "polishWord": "toaleta",
       "englishTranslation": "Toilet",
-      "spriteName": "Toilet_sprite"
+      "spriteName": "Toilet_sprite",
+      "folderName": "HomeInt"
     },
     {
       "id": "word_tv",
       "polishWord": "telewizja",
       "englishTranslation": "TV",
-      "spriteName": "sprite_TV"
+      "spriteName": "sprite_TV",
+      "folderName": "HomeInt"
     }
 
   ]
